@@ -10,7 +10,7 @@ int Prompt(string msg)
 
 bool Validate(int firstNumber, int secondNumber)
 {
-    if (firstNumber >= secondNumber)
+    if (firstNumber > secondNumber)
     {
         return true;
     }
